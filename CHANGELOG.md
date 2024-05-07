@@ -1,5 +1,9 @@
 ### Changelog
 
+#### [1.0.2](https://github.com/aptoma/aoi-smart-crop/compare/1.0.1...1.0.2) 2024-05-07
+
+- Update deps, remove crypto lib [`18dbb29`](https://github.com/aptoma/aoi-smart-crop/commit/18dbb29dd0e8a03c1eae93b53685e9e629ee9f15)
+
 #### [1.0.1](https://github.com/aptoma/aoi-smart-crop/compare/1.0.0...1.0.1) 2022-04-19
 
 - Add auto-changelog formatting [`da0a1f6`](https://github.com/aptoma/aoi-smart-crop/commit/da0a1f6823837a7ad756eecca26adc9e19d50d7d)

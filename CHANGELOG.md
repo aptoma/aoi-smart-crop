@@ -1,5 +1,9 @@
 ### Changelog
 
+#### [1.0.3](https://github.com/aptoma/aoi-smart-crop/compare/1.0.2...1.0.3) 2026-08-21
+
+- Bump deps, replace mocha/chai with node:test, eslint with biome [`#14`](https://github.com/aptoma/aoi-smart-crop/pull/14)
+
 #### [1.0.2](https://github.com/aptoma/aoi-smart-crop/compare/1.0.1...1.0.2) 2024-05-07
 
 - Update deps, remove crypto lib [`18dbb29`](https://github.com/aptoma/aoi-smart-crop/commit/18dbb29dd0e8a03c1eae93b53685e9e629ee9f15)

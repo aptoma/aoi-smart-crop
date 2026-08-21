@@ -8,13 +8,13 @@
   "description": "Helper library for doing smart crops of images based on area of interest data",
   "main": "lib/index.js",
   "scripts": {
-    "lint": "eslint lib",
+    "lint": "biome check",
     "prerelease": "npm run lint && npm run test",
     "release": "npm run prerelease && release-it -i patch",
     "release:minor": "npm run prerelease && release-it -i minor",
     "release:major": "npm run prerelease && release-it -i major",
-    "test": "mocha lib/**/*.test.js",
-    "watch": "mocha --watch 'lib/**/*.js' --timeout 500"
+    "test": "node --test lib",
+    "watch": "node --test --watch lib"
   },
   "files": [
     "README.md",
@@ -26,22 +26,11 @@
     "qs": "^6.12.1"
   },
   "devDependencies": {
-    "@aptoma/eslint-config": "^8.0.0",
+    "@biomejs/biome": "^2.5.9",
     "auto-changelog": "^2.4.0",
-    "chai": "^4.4.1",
-    "eslint": "^8.57.0",
-    "mocha": "^10.4.0",
-    "release-it": "^17.2.1"
+    "release-it": "^20.2.1"
   },
   "engines": {
     "node": ">=18"
-  },
-  "eslintConfig": {
-    "extends": "@aptoma/eslint-config",
-    "env": {
-      "node": true,
-      "mocha": true,
-      "es6": true
-    }
   }
 }
